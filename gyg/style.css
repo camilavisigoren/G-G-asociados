@@ -187,3 +187,24 @@ textarea {
 .footer-sm-menu>li {
     list-style: none;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar-page {
+        display: flex;
+        justify-content: space-between;
+        padding: 400px 10px;
+        position: fixed;
+    }
+    
+ 
+    /* es necesario que repita estos elementos?
+        .navbar-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }*/
+
+    .navbar-container > h1 {
+        display: none;
+    }
+}

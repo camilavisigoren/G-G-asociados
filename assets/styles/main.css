@@ -10,6 +10,13 @@ body {
     justify-content: space-between;
 }
 
+/*.navbar-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 400px 10px;
+    position: fixed;
+} */
+
 .navbar-page {
     display: flex;
     justify-content: space-between;
@@ -21,6 +28,10 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+/*.navbar-container > h1 {
+    display: none;
+}*/
 
 .page-main {
     margin-bottom: 100px;
@@ -188,23 +199,14 @@ textarea {
     list-style: none;
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (min-width: 481px) {
     .navbar-page {
         display: flex;
         justify-content: space-between;
-        padding: 400px 10px;
-        position: fixed;
+        padding: 0 10px;
     }
-    
- 
-    /* es necesario que repita estos elementos?
-        .navbar-container {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }*/
 
     .navbar-container > h1 {
-        display: none;
+        display: run-in;
     }
-}
+}*/

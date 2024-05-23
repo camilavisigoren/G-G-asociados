@@ -13,14 +13,16 @@ body {
 /*.navbar-page {
     display: flex;
     justify-content: space-between;
-    padding: 400px 10px;
-    position: fixed;
+    padding: 0px 10px;
 } */
 
 .navbar-page {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    position: fixed;
+    bottom: 20px;
+    background-color: #eee;
 }
 
 .navbar-container {
@@ -29,9 +31,9 @@ body {
     gap: 20px;
 }
 
-/*.navbar-container > h1 {
-    display: none;
-}*/
+.hidden-heading {
+    visibility: hidden;
+}
 
 .page-main {
     margin-bottom: 100px;
@@ -199,14 +201,17 @@ textarea {
     list-style: none;
 }
 
-/*@media screen and (min-width: 481px) {
+@media screen and (min-width: 600px) {
     .navbar-page {
         display: flex;
         justify-content: space-between;
         padding: 0 10px;
+        position: relative;
+        top: 0px;
     }
 
-    .navbar-container > h1 {
-        display: run-in;
+    .hidden-heading {
+        visibility: visible;
     }
-}*/
+
+}
